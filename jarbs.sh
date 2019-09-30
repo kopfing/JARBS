@@ -129,7 +129,7 @@ putgitrepo() { # Downlods a gitrepo $1 and places the files in $2 only overwriti
 	chown -R "$name:wheel" "$dir"
 	sudo -u "$name" git clone -b "$branch" --depth 1 "$1" "$dir/gitrepo" >/dev/null 2>&1 &&
 	sudo -u "$name" cp -rfT "$dir/gitrepo" "$2"
-    mkdir -p "/home/$name/.cache/zsh/history
+    mkdir -p "/home/$name/.cache/zsh/history"
 	}
 
 serviceinit() { for service in "$@"; do
