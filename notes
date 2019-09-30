@@ -1,9 +1,11 @@
 mkdir -p ~/.cache/zsh/history
 testen:
     i3-battery-popup-git
+    tmux
 
 
 ---
+auto configure pam-gnupg?
 eigne Packages in eigene repositories
 
 ---
