@@ -1,0 +1,76 @@
+mkdir -p ~/.cache/zsh/history
+testen:
+    i3-battery-popup-git
+
+
+---
+eigne Packages in eigene repositories
+
+---
+config files
+~/.config/
+    dunst/
+    gtk-3.0/
+    i3/
+    i3status/
+    mpv/
+    ncmpcpp/
+    qutebrowser/
+    ranger/
+    sxiv/
+    zathura/
+    zsh/
+    aliasrc
+    archey3.cfg
+    compton.conf
+    wall.png
+
+~/.scripts/
+    .getkeys/
+    compiler
+    configs
+    convertScanToPDF.sh
+    convertSplitAndMergePDF
+    ddpawn
+    displayselect
+    dmenumount
+    dropdowncalc
+    extract
+    folders
+    getkeys
+    lmc
+    lock.png
+    lockscreen
+    mountAbacus.sh
+    note
+    printSalzamt
+    prompt
+    remaps
+    samedir
+    scanNiki.sh
+    syncAbacus.sh
+    syncAbacusMitschriften.sh
+    syncAbacusSkriptum.sh
+    tmuxdd
+    toggletouchpad
+    ttymaps.kmap
+    vgaFernseher.sh
+    vgaOff.sh
+    vgaOn.sh
+
+.bash_profile
+.bashrc
+.gitignore
+.gtkrc-2.0
+.inputrc
+.profile
+.scimrc
+.tmux.conf
+.vimrc
+.xinitrc
+.xprofile
+.Xresources
+.zprofile
+.zshrc
+LICENSE
+README.md
